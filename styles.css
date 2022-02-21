@@ -1,0 +1,53 @@
+
+button{ 
+    background-color: #d3d3d3;
+    border-width: none;
+    margin-left: 0px;
+}
+body{
+    position: absolute;
+    width: 1019px;      
+}
+
+h3{	
+    font-family:helvetica;
+    font-size: 30px;
+    margin-top: 160px;
+    margin-left: 500px;
+}
+p{
+    font-family: helvetica;
+    color:red;
+    margin-left:500px;
+    font-size:25px;
+    border-top: 0px;
+}
+input{
+    margin-top: 10px;
+    margin-left: 500px;
+    
+}
+div.dino{
+    margin-right: 10px;
+ }  
+ .imgdino1{
+   position:absolute ;
+    width: 23px;
+    margin-top: 216px;
+    visibility: visible;
+    margin-left: 80px;
+    
+    animation: dino1 3s infinite;
+    
+} 
+.imgdino2{
+    position:absolute;
+    width: 90px;
+    margin-top: 200px;
+    visibility: visible;
+    margin-left: 1px;
+
+} 
+  @keyframes dino1 { 
+    from{margin-left:80px} to{margin-left: 500px;}
+ }
